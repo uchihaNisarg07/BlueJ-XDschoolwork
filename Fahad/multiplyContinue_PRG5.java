@@ -1,6 +1,6 @@
 package Fahad;
 
-public class multiplyingContinue_PRG5
+public class multiplyContinue_PRG5
 {
     int x;
     void main()

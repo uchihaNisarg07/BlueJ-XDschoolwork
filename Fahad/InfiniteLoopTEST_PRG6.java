@@ -1,5 +1,5 @@
 package Fahad;
-
+// This PRG is a test PRG given by miss
 public class InfiniteLoopTEST_PRG6
 {
     int i;
