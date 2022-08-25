@@ -12,6 +12,7 @@ public class PRG_Caller
         System.out.println("Enter 4 to run Break loop PRG.");
         System.out.println("Enter 5 to run Multiply Continue PRG.");
         System.out.println("Enter 6 to run Infinite Loop PRG.");
+        System.out.println("Enter 7 to run Generate 6 random number for 5 person and accept the name and find the max of all PRG.");
         opt = sc.next().charAt(0);
         switch (opt)
         {
@@ -32,6 +33,9 @@ public class PRG_Caller
             break;
             case '6':
             PRG6();
+            break;
+            case '7':
+            PRG7();
             break;
             default:
             System.out.println("Wrong choice Exiting...");
@@ -70,6 +74,7 @@ public class PRG_Caller
     }
     void PRG7()
     {
-        
+        G6Rannmax_PRG31 obj = new G6Rannmax_PRG31();
+        main();
     }
 }
